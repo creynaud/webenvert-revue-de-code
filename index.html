@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+            
+        <title>La revue de code</title>
+
+        <meta name="author" content="Claire Reynaud">
+        <meta name="venue" content="Web en Vert">
+        <meta name="date" content="29/04/2015">
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+        <style type="text/css">
+        </style>
+	<script src="deck-packed.js"></script>
+
+        <script>
+            includedeck(["theme.css", "autoshow.js", "autoshow.css"], {
+            })
+
+        </script>
+        <!-- override some style here if needed (or in an external file) -->
+    </head>
+
+<body>
+
+<div class="deck-container">
+<!-- this presentation uses the smarkdown syntax -->
+
+<section class="smark">
+
+# {title-slide}
+
+<h2 style="font-size: 50px; font-weight: normal; margin-bottom: 10px; text-transform: uppercase" class="var-title"></h2>
+<h3 style="font-size: 2em; margin-top: 0px">@ClaireReynaud</h3>
+<center>
+<div class="autoshow">
+   <div><img src="images/innocent-minion.gif"></div>
+   <div><img src="images/it-crowd.gif"></div>
+   <div><img src="images/military-strategy.gif"></div>
+   <div><img src="images/panda.gif"></div>
+   <div><img src="images/grammar.gif"></div>
+</div>
+</center>
+
+# La revue de code, ça consiste en quoi ?{title}
+
+# Toute modification du code est relue et approuvée par un autre membre de l'équipe{title}
+
+## Pourquoi faire des<br>revues de code ?{top-left darkened white}
+<img src="images/innocent-minion.gif" class="fullimgstretch">
+
+## Détecter un maximum de problèmes avant qu'ils arrivent en production
+- Code pas clair, difficilement maintenable
+- Bugs
+- Cas de tests oubliés
+- Code qui ne correspond pas au besoin
+- Code où on a réinventé la roue
+...
+
+## Quels sont les bénéfices<br>des revues de code ?{top-left darkened white}
+<img src="images/minions-team.jpg" class="fullimgstretch">
+
+# Faire émerger des bonnes pratiques{title}
+
+# Profiter des différentes expériences de chacun{title}
+
+# Transmettre les connaissances dans l'équipe{title}
+
+# Augmenter la qualité{title}
+
+#{title}
+<img src="images/it-crowd.gif" class="fullimgstretch">
+
+# Responsabilité collective du code{title}
+
+## Comment mettre en place des revues de code ?{bottom-left darkened white}
+<img src="images/military-strategy.gif" class="fullimgstretch">
+
+# Avant tout c'est une décision d'équipe{title}
+
+# Se mettre d'accord : en quoi consiste une revue{title}
+
+## Par exemple, vérifier que :
+- Le code répond au besoin
+- Le code est utile (on ne pas réinvente pas la roue)
+- Le code est maintenable et compréhensible
+- Le code n'a pas de bugs a priori
+- Les cas couverts par les tests sont suffisants
+- Si besoin vérifier les aspects sécurité et performance
+
+## Faire tourner différents outils d'analyse de code en amont de la revue
+<img src="images/grammar.gif" style="width: 800px">
+
+## Comment faire pour que ça se passe bien ?{bottom-left darkened white}
+<img src="images/minions.gif" class="fullimgstretch">
+
+# Faire des patchs de taille raisonnable{title}
+
+# Ne pas mélanger refactoring, corrections de bugs et nouvelles fonctionnalités dans un même patch{title}
+
+# Ne pas laisser trainer les revues des collègues, ils vous le rendront bien{title}
+
+## Demander l'aide d'une tierce personne si on arrive pas à se mettre d'accord
+<center><img src="images/minions-term.gif"></center>
+
+# On fait une revue de code, pas une critique de la personne qui l'a écrit{title}
+
+#{title}
+<img src="images/panda.gif" style="width: 600px; margin-left: 100px">
+
+# Une revue de code, c'est une discussion avant tout{title}
+
+# Rien n'empêche de faire des commentaires positifs aussi !{title}
+
+## Quelques outils{top-left darkened white}
+<img src="images/tools.gif" class="fullimgstretch">
+
+# Github, Bitbucket, Gerrit, Review board...{title}
+
+# Afficher le résultat du build d'intégration continue directement dans la pull request{title}
+
+# Chacun a son éditeur de code préféré, mais se mettre d'accord sur le formatage du code{title}
+
+# {title-slide}
+
+<h2 style="color: black">Merci !</h2>
+<center>
+<div class="autoshow">
+   <div><img src="images/innocent-minion.gif"></div>
+   <div><img src="images/it-crowd.gif"></div>
+   <div><img src="images/military-strategy.gif"></div>
+   <div><img src="images/panda.gif"></div>
+   <div><img src="images/grammar.gif"></div>
+</div>
+</center>
+
+</section>
+
+<!-- end of the presentation -->
+
+
+<p class="deck-status deck-progress-10">
+     <span class="var-title"></span> − <span class="var-date"></span> − <span class="var-author"></span> − <span class="var-venue"></span> −
+     <span class="deck-status-current"></span> / <span class="deck-status-total"></span>
+</p>
+
+<a style="position:absolute; top:0; left:0; right:0; background: #d00b01;" data-progress-size="height: 3*designRatio"></a>
+    
+<!-- deck.navigation snippet -->
+<a href="#" class="nav deck-prev-link" title="Previous">&#8592;</a>
+<a href="#" class="nav deck-next-link" title="Next">&#8594;</a>
+<!-- deck.clone snippet: simple red box with top-left corner as cursor position -->
+<!--div class="clonepointer" style="position:absolute; width:20px; height:20px; background:red; z-index:10"></div-->
+<!-- deck.clone snippet: simple green box with center as cursor position -->
+<!--div class="clonepointer" style="position:absolute; z-index:11"><div style="margin: -13px 0 0 -13px; width:18px; height:18px; border:4px solid green;"></div></div-->
+
+<!--div class="clonepointer" style="position:absolute; z-index:11"><div style="margin: -13px 0 0 -13px; width:18px; height:18px; border-top:2px  solid red; border-left:2px  solid red;"></div></div-->
+<div class="clonepointer" style="position:absolute; z-index:11"><div style="margin: -3px 0 0 -3px; width:3px; height:3px; border-top:2px  solid red; border-left:2px  solid red;"></div></div>
+
+
+</div> <!-- end of deck container -->
+
+</body>
+</html>
